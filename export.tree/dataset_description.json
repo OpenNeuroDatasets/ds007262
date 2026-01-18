@@ -1,0 +1,27 @@
+{
+    "Name": "Cognitive Workload 8 categories of mental arithmetic",
+    "BIDSVersion": "1.9.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Liam Booth",
+        "Matthew Barras"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "MNE-BIDS",
+            "Version": "0.18.0",
+            "CodeURL": "https://mne.tools/mne-bids/"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "Directory": "sourcedata",
+            "Version": "1.0.0"
+        }
+    ],
+    "EthicsApprovals": [
+        "Faculty of Health Sciences Research Ethics Committee at the University of Hull"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds007262.v1.0.0"
+}
