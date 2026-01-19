@@ -4,7 +4,6 @@
   "PowerLineFrequency": 50.0,
   "SamplingFrequency": 250.0,
   "SoftwareFilters": "n/a",
-  "RecordingDuration": 690.812,
   "RecordingType": "continuous",
   "EEGReference": "linked ears (Ag/AgCl)",
   "EEGGround": "n/a",
@@ -34,5 +33,6 @@
   "InstitutionalDepartmentName": "n/a",
   "TaskDescription": "Cognitive Workload 8-level arithmetic task.",
   "Instructions": "n/a",
-  "CogAtlasID": "n/a"
+  "CogAtlasID": "n/a",
+  "CogPOID": "http://www.cogpo.org/ontologies/CogPOver1.owl#COGPO_00036"
 }
