@@ -1,0 +1,16 @@
+1.1.0 2026-06-20
+  - Added a per-trial response_time column to every sub-*/eeg/*_task-arithmetic_events.tsv (answer latency from response-window onset to submission, in seconds), documented in task-arithmetic_events.json. Corrected EEG amplitude scaling — in v1.0.6 and earlier the EEG channels were inadvertently scaled by 10⁶ during XDF→BIDS conversion and weren't true microvolts; they're now in correct µV (so channels.tsv's "µV" units are accurate). ECG/auxiliary channels were unaffected; anyone who used EEG amplitudes from an earlier version should re-download.
+1.0.6 2026-02-24
+  - not updating doi
+1.0.5 2026-02-24
+  - back to first before scientific data submission
+1.0.4 2026-01-28
+  - DOI unchanged
+1.0.3 2026-01-28
+  - reorder authos again, first author should be first but openneuro recommends second?
+1.0.2 2026-01-19
+  - fixed higher level override warnings
+1.0.1 2026-01-18
+  - Updated author order
+1.0.0 2026-01-18
+  - 1.0.0
